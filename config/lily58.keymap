@@ -21,8 +21,8 @@
 // |  ESC  |  1  |  2  |  3   |  4   |  5   | 		                	          |  6   |  7    |  8    |  9   |   0   | TOG 2 |
 // |  TAB  |  Q  |  W  |  E   |  R   |  T   | MO1 |          			  | MO2   |  Y   |  U    |  I    |  O   |   P   |   "Å"   |
 // |  CTRL |  A  |  S  |  D   |  F   |  G   |  "["  |                	  |  "]"  |  H   |  J    |  K    |  L   |   "Æ"   |   "Ø"   |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   | TAP | SHIFT |      	| ALT | CTRL  |  N   |  M    |  ,    |  .   |   -   | SHIFT |
-// | GUI   |  +  | -   | ALT  | | ";"  |      | SPACE | BSPC  |	    | DEL | SPACE | |MUTE|   	 |  LEFT | DOWN |  UP   | RIGHT |									
+// | SHIFT |  Z  |  X  |  C   |  V   |  B   | TAP | SHIFT |      	| ALT | CTRL  |  N   |  M    |  ","    |  .   |   -   | SHIFT |
+// | GUI   | "+"  | "-"   | ALT  | | ";"  |      | SPACE | BSPC  |	    | DEL | SPACE | |MUTE|   	 |  LEFT | DOWN |  UP   | RIGHT |									
 			bindings = <
 &kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5               		   			  		   	   &kp N6 &kp N7   &kp N8    &kp N9  &kp N0    &tog RAISE
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T  &mo 1      				   		 &mo 2     &kp Y  &kp U    &kp I     &kp O   &kp P     &kp LBKT
@@ -54,10 +54,10 @@
 		raise_layer {
 // ----------------------------------------------------------------------------------------------------------------------------------
 // | ESC   |  1   |  2 |  3   |  4   |   5  | 		                	       |  6   |   7   |   8   |   9  |   0   | TOG 2 |
-// | TAP   |  Q  |  W  |  E   |  R   |      |     |          			   |       |      |       |       |  UP  |  VOL- |       |
-// | CTRL  |  A  |  S  |  D   |  F   |      |     |                	 	   |       |      |       |  LEFT | DOWN | RIGHT |       |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B  | TAP | SHIFT |      	|      |       |      |       |       |      |       |       |
-// | GUI   |  +  | -   | ALT  | | ; |      | SPACE | BSPC|  		|      |       | |   |   	 |       |     |      |       |	
+// | TAP   |  Q  |  W  |  E   |  R   |      |     |          			   |       | VOL_UP   |       |       |  UP  |       |       |
+// | CTRL  |  A  |  S  |  D   |  F   |      |     |                	 	   |       | VOL_DN   |       |  LEFT | DOWN | RIGHT |       |
+// | SHIFT |  Z  |  X  |  C   |  V   |  B  | TAP | SHIFT |      	|      |       |          |       |       |      |       |       |
+// | GUI   |  +  | -   | ALT  | | ";" |      | SPACE | BSPC|  		|      |       | |   |   	 |       |     |      |       |	
 
 &kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5               		   			  		   	            &kp N6       &kp N7   &kp N8   &kp N9   &kp N0 		 &tog RAISE  
 &kp TAP   &kp Q  &kp W &kp E    &kp R    &kp T  &trans        				   		         &none      &kp C_VOL_UP &trans   &trans   &kp UP   &trans       &trans
