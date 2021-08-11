@@ -13,6 +13,13 @@
 #define NAVI    1
 #define RAISE   2
 {
+//row 1: 7
+//row 2: 7
+//row 3:7
+//row 4: 7
+//row 5: 7
+
+
 	keymap {
 		compatible = "zmk,keymap";
 
